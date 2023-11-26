@@ -5,8 +5,22 @@
 
 body {
   background: black;
+  margin: 0;
 }
 
-h1 {
-  font-size: xx-large;
+.topPage {
+  background-color: black;
+  background-image: url(photos/color-2174065_1920.png);
+  background-size: auto;
+
+  width: auto;
+  height: 100vh;
+}
+
+.profilePicture {
+  height: 500px;
+}
+
+.navbarContainer {
+  display: flex;
 }

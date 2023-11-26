@@ -17,10 +17,56 @@ body {
   height: 100vh;
 }
 
-.profilePicture {
-  height: 500px;
+.navbarContainer {
+  padding: 20px;
 }
 
-.navbarContainer {
+.logo {
+  width: 80px;
+}
+
+nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigations {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-right: 100px;
+}
+
+.navigations a {
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.navigations a:hover {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: black;
+  color: black;
+}
+
+.profile {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.profilePicture {
+  height: 500px;
+  border-style: double;
+  border-width: 5px;
+}
+
+.name {
+  color: black;
+}
+
+.greet {
+  color: antiquewhite;
 }

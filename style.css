@@ -60,6 +60,7 @@ nav {
   height: 500px;
   border-style: double;
   border-width: 5px;
+  border-radius: 5px;
 }
 
 .name {
@@ -129,5 +130,5 @@ nav {
 }
 
 .thank {
-  text-align: centerS;
+  text-align: center;
 }

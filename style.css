@@ -8,13 +8,12 @@ body {
   margin: 0;
 }
 
-.topPage {
+.Page {
   background-color: black;
-  background-image: url(photos/color-2174065_1920.png);
-  background-size: auto;
-
-  width: auto;
-  height: 100vh;
+  background-image: url(photos/cup-2619216_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
 }
 
 .navbarContainer {
@@ -46,8 +45,8 @@ nav {
 .navigations a:hover {
   border-bottom-style: solid;
   border-width: 2px;
-  border-color: black;
-  color: black;
+  border-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
 .profile {
@@ -64,9 +63,28 @@ nav {
 }
 
 .name {
-  color: black;
+  font-size: larger;
+  color: rgb(255, 0, 0);
 }
 
 .greet {
+  font-size: 40px;
   color: antiquewhite;
+}
+
+.work {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+
+.about {
+  margin-top: 50px;
+}
+.penguinImg {
+  width: 300px;
+}
+
+.col1 {
+  display: flex;
+  justify-content: space-evenly;
 }

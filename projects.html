@@ -8,6 +8,45 @@
     />
     <title>Projects</title>
     <link rel="stylesheet" href="projects.css" />
+    <script>
+      function toggleItem(element) {
+        const content = element.nextElementSibling;
+        content.classList.toggle("expanded");
+      }
+    </script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="title">
+        <span>A</span>ccomplished projects:
+      </div>
+      <div class="projectsList">
+        <div class="item">
+          <div class="hackday" onclick="toggleItem(this)">
+            COESIS Hackday 2022
+          </div>
+          <div class="content">hackkkk</div>
+        </div>
+        <div class="item">
+          <div class="design" onclick="toggleItem(this)">
+            Design Competition
+          </div>
+          <div class="content">designnn</div>
+        </div>
+        <div class="item">
+          <div class="leafFrog" onclick="toggleItem(this)">
+            LeafFrog Challenge
+          </div>
+          <div class="content">leaffff</div>
+        </div>
+        <div class="item">
+          <div class="react" onclick="toggleItem(this)">
+            React Projects
+          </div>
+          <div class="content">reactttt</div>
+        </div>
+      </div>
+      <div class="message">Click to expand</div>
+    </div>
+  </body>
 </html>

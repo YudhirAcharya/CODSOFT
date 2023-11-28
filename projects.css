@@ -1,8 +1,37 @@
 * {
   margin: 0;
-  background-image: url(photos/workspace-1280538_1920.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
-.resumePage {
+.container {
+  background-image: url(photos/workspace-1280538_1920.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.title {
+  padding: 20px;
+  font-size: 60px;
+  color: white;
+}
+.redI {
+  color: red;
+}
+.projectsList {
+  color: white;
+  font-size: xx-large;
+  list-style: none;
+  padding-left: 40px;
+}
+.projects {
+  list-style: none;
+}
+.content {
+  display: none;
+}
+.expanded {
+  display: block;
+}
+.item {
+  padding: 10px;
+}
+.item:hover {
+  color: red;
 }

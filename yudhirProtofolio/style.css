@@ -81,7 +81,7 @@ nav {
 .about {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .aboutTitle {
   font-size: 60px;
@@ -109,20 +109,23 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
+.col22 {
+  margin: 0;
+}
 .contact {
   margin-bottom: 200px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .contactTitle {
-  font-size: 70px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 .contactMe {
   color: red;
-  font-size: 70px;
+  font-size: 40px;
 }
 .row2 {
   display: flex;
